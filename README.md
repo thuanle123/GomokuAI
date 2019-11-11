@@ -7,6 +7,7 @@ With the advancement of Artificial Intelligence (AI), creating game has been mor
 # Math
 Gomoku is a two-player game. The game is deterministic and has a small tree with approxmiately 15! tree node. Minimax search chooses move to position with highest minimax value to achieve payoff against best play. Time O(b^m), Space(bm). Alpha–beta pruning is a search algorithm that seeks to decrease the number of nodes that are evaluated by the minimax algorithm in its search tree. Alpha is the best value (for Max) found so far at any choice point along the path for Max. Beta is the best value (for Min) found so far at any choice point along the best. If utility v is worse than alpha, max will avoid it. Meanwhile, if utility v is larger than beta, min will avoid it.
 
+Read more here: https://www.cse.unr.edu/~sushil/class/ai/notes/wk7.pdf
 
 # Setup
 Install python3 and python3-tk
