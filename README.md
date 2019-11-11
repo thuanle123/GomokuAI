@@ -14,5 +14,6 @@ Install python3 and python3-tk
 # Running
 ```
   python3 gomoku.py
+  a UI will pop up and you can begin playing
   ENJOY!!
 ```
