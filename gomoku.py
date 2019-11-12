@@ -24,9 +24,7 @@ class Board:
             return 'Black won'
         elif 5 in white and white[5] == 1:
             return 'White won'
-        #if sum(black.values()) == black[-1] and sum(white.values()) == white[-1] or possible_moves(board)==[]:
-        #    return 'Draw'
-
+        
 class Graphic:
     @staticmethod
     def click(x,y):
